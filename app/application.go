@@ -13,7 +13,7 @@ func StartApplication() {
 	mapUrls()
 	srv := &http.Server{
 		Handler:      router,
-		Addr:         ":8090",
+		Addr:         ":9000",
 	}
 
 	if err := srv.ListenAndServe(); err != nil {
