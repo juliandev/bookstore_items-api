@@ -1,15 +1,8 @@
 FROM golang:alpine AS build
-
-WORKDIR /go/src/github.com/juliandev/bookstore_items-api
-
+WORKDIR /go/src/myapp
 COPY . .
-
-RUN go build -o /go/bin/github.com/juliandev/bookstore_items-api src/main.go
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o /go/bin/myapp src/main.go
 
 FROM scratch
-
-COPY --from=build /go/bin/github.com/juliandev/bookstore_items-api /go/bin/github.com/juliandev/bookstore_items-api
-
-EXPOSE 9000
-
-CMD ["./bookstore_items-api"]
+COPY --from=build /go/bin/myapp /go/bin/myapp
+CMD ["/go/bin/myapp"]
