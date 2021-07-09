@@ -46,8 +46,8 @@ github.com/jmespath/go-jmespath/internal/testify v1.5.1/go.mod h1:L3OGu8Wl2/fWfC
 github.com/joho/godotenv v1.3.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=
 github.com/juliandev/bookstore_oauth-go v1.0.3 h1:ggmryFYUUKbyy/Z0l5H3lNNOTG0D6FGTJ8yjczJL4kQ=
 github.com/juliandev/bookstore_oauth-go v1.0.3/go.mod h1:ZjTQF61paRKSLFmCF0sLxYC71NxnD0wwK2P2DMy2TwM=
-github.com/juliandev/bookstore_utils-go v0.0.0-20210706132310-8fb4f9f7ca7a h1:VaOuElwuiKBwnx+BrqjMQRHONDFZVlk3w+3O92xJU7Q=
-github.com/juliandev/bookstore_utils-go v0.0.0-20210706132310-8fb4f9f7ca7a/go.mod h1:ul5vKSMyVyFXNYlUjMmlG59VWH4snsHh+SlcJ7jwRJk=
+github.com/juliandev/bookstore_utils-go v0.0.0-20210709002408-e54c6186b400 h1:7uYojhggD/+TwqBc9UVm3uwg+iPEvzJ8BRbJUJDUIYo=
+github.com/juliandev/bookstore_utils-go v0.0.0-20210709002408-e54c6186b400/go.mod h1:ul5vKSMyVyFXNYlUjMmlG59VWH4snsHh+SlcJ7jwRJk=
 github.com/karrick/godirwalk v1.8.0/go.mod h1:H5KPZjojv4lE+QYImBI8xVtrBRgYrIVsaRPx4tDPEn4=
 github.com/karrick/godirwalk v1.10.3/go.mod h1:RoGL9dQei4vP9ilrpETWE8CLOZ1kiN0LhBygSwrAsHA=
 github.com/klauspost/compress v1.9.5 h1:U+CaK85mrNNb4k8BNOfgJtJ/gr6kswUCFj6miSzVC6M=
