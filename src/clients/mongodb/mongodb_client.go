@@ -6,20 +6,22 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/bson"
+	"os"
 )
 
 const (
-	dbName = "items"
+	dbName       = "items"
 	dbCollection = "items"
 )
 
 var (
+	dbHost       = os.Getenv("DB_HOST")
+	ctx          = context.TODO()
 	collection *mongo.Collection
-	ctx = context.TODO()
 )
 
 func init() {
-	clientOptions := options.Client().ApplyURI("mongodb://items-db:27017/")
+	clientOptions := options.Client().ApplyURI("mongodb://" + dbHost)
 	client, err := mongo.Connect(ctx, clientOptions)
 	if err != nil {
 		panic(err)
