@@ -46,6 +46,8 @@ github.com/jmespath/go-jmespath/internal/testify v1.5.1/go.mod h1:L3OGu8Wl2/fWfC
 github.com/joho/godotenv v1.3.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=
 github.com/juliandev/bookstore_oauth-go v0.0.0-20210710222951-a0849dbe37b1 h1:tpN9CC/BOM1iwvuNYn3ocLT9jWXwiyliYRV/gXndT5o=
 github.com/juliandev/bookstore_oauth-go v0.0.0-20210710222951-a0849dbe37b1/go.mod h1:ZjTQF61paRKSLFmCF0sLxYC71NxnD0wwK2P2DMy2TwM=
+github.com/juliandev/bookstore_oauth-go v0.0.0-20210710225615-e5120762b2dc h1:9XvK2+XPQQDA7D6Z+/1X3iz+PWfScoh/mLn8lAApyvw=
+github.com/juliandev/bookstore_oauth-go v0.0.0-20210710225615-e5120762b2dc/go.mod h1:ZjTQF61paRKSLFmCF0sLxYC71NxnD0wwK2P2DMy2TwM=
 github.com/juliandev/bookstore_oauth-go v1.0.3 h1:ggmryFYUUKbyy/Z0l5H3lNNOTG0D6FGTJ8yjczJL4kQ=
 github.com/juliandev/bookstore_oauth-go v1.0.3/go.mod h1:ZjTQF61paRKSLFmCF0sLxYC71NxnD0wwK2P2DMy2TwM=
 github.com/juliandev/bookstore_utils-go v0.0.0-20210709002408-e54c6186b400 h1:7uYojhggD/+TwqBc9UVm3uwg+iPEvzJ8BRbJUJDUIYo=
